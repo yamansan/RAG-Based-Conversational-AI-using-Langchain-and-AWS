@@ -50,47 +50,6 @@ streamlit
 faiss-cpu
 ```
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/rag-conversational-ai.git
-cd rag-conversational-ai
-```
-
-### 2. Environment Setup
-```bash
-python -m venv env
-source env/bin/activate   # Mac/Linux
-env\Scripts\activate     # Windows
-```
-
-### 3. Add Environment Variables
-Create a `.env` file to store environment configurations:
-```env
-AWS_REGION=your-region
-BEDROCK_ENDPOINT=your-bedrock-endpoint
-```
-
-### 4. Data Preparation
-Upload your documents to Amazon S3 or your desired storage solution. Ensure your documents are in a supported format for retrieval.
-
-### 5. Model and Workflow Configuration
-Define the LangChain workflow to include:
-- **LLM Model Access:** AWS Bedrock integration.
-- **Retrieval Pipeline:** Document chunking and vector storage.
-- **Response Generation:** Context-aware conversational flow.
-
-### 6. Running the Application
-Start the FastAPI server (if implemented):
-```bash
-uvicorn app:app --reload
-```
-Access the application at [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
----
 
 ## 🧩 Project Structure
 ```
