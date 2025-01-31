@@ -18,8 +18,7 @@ The system employs **AWS Bedrock** for robust large language model (LLM) access 
 - **Programming Language:** Python
 - **Conversational Framework:** LangChain
 - **Cloud AI Service:** AWS Bedrock
-- **Data Storage:** Amazon S3 (for document storage), DynamoDB (for embeddings)
----
+- ---
 
 ## 📋 Prerequisites
 Before you start, ensure you have the following installed and set up:
