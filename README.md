@@ -42,14 +42,12 @@ pip install -r requirements.txt
 ```
 **Sample `requirements.txt` file:**
 ```plaintext
-langchain
 boto3
 awscli
-fastapi
-uvicorn
-numpy
-pandas
-scikit-learn
+pypdf
+langchain
+streamlit
+faiss-cpu
 ```
 
 ---
